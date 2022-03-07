@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #c7c4c4;
+    }
+
+
+        /* Estilo de header */
+        header {
+            text-align: center;
+            font-size: 35px;
+            color: rgb(108, 202, 155);
+        }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #b3b1b1;
+        height: 300px;
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+</style>         
+
+<body>
+
+    <img src="https://i.ibb.co/VBxTTyw/baker-Mesa-de-trabajo-1.png" alt="baker-Mesa-de-trabajo-1" border="0" width="150px" height="150px">
+
+    <header>
+        <h2>Home backery</h2>
+    </header>
+
+    <p>Prueba nuestros deliciosos pasteles</p>            
+    <dl>
+        <dt>Chocolate</dt>
+        <dd>    $ 250</dd>
+        <dt>Vainilla</dt>
+        <dd>    $ 200</dd>
+        <dt>Cajeta</dt>
+        <dd>    $ 250</dd>
+        <dt>Fresa</dt>
+        <dd>    $ 200</dd>
+        <dt>Red Velvet</dt>
+        <dd>    $ 250</dd>
+        <dt>Naranja</dt>
+        <dd>    $ 300</dd>
+
+
+    </dl>
+
+
+    <p>Decoralo:</p>
+    <dl>
+        <dt>Chispas</dt>
+        <dd>    $ 50</dd>
+        <dt>Chantilly</dt>
+        <dd>    $ 100</dd>
+        <dt>Fondant sencillo</dt>
+        <dd>    $ 150</dd>
+        <dt>Fondant 3D</dt>
+        <dd>    desde $ 200</dd>
+        <dt>Frutas</dt>
+        <dd>    $ 100</dd>
+        <dt>Mermeladas</dt>
+        <dd>    $ 50</dd>
+
+
+    </dl>
+
+    <p>Porque queremos que seas feliz =):</p> 
+    <a href="./pedido.html">
+    <input type="button" value="TU PEDIDO">
+    </a> 
+
+
+    <footer>
+        <p>Nispero #19 Fraccionamiento San Rafael, 
+            Tlalnepantla Edo. de Méx.
+            Tel. 5529486573</p>
+        <p>Miércoles-Viernes 10:00-19:00
+            Sábados y Domingos 10:00-14:00 </p>    
+    </footer>
+
+</body>
+</html>

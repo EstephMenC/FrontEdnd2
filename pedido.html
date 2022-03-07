@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido pasteleria</title>
+</head>
+
+    <style> 
+         * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #c7c4c4;
+    }
+
+
+        /* Estilo de header */
+        header {
+            text-align: center;
+            font-size: 20px;
+            color: rgb(54, 134, 94);
+        }
+    </style>
+
+<body>
+
+    <img src="https://i.ibb.co/VBxTTyw/baker-Mesa-de-trabajo-1.png" alt="baker-Mesa-de-trabajo-1" border="0" width="150px" height="150px">
+
+    <header>
+        <h2>Tu pedido</h2>
+    </header>
+
+    <form action="pedido.js">
+        <label for="Nombre">Tu nombre</label><br>
+        <input typy="text" id="Nombre" placeholder="">
+
+        <hr>
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name=><br><br>
+
+        <label for="tel1">Número de Teléfono</label><br>
+        <input type="tel" id="tel1" name maxlength="10"><br><br>
+
+        <label for="Descripción">Describe tu pastel</label><br>
+        <input typy="text" id="Descripción" placeholder="">
+
+        <hr>
+
+      <p>Elige el sabor</p><br>
+      <input type="radio" id="Chocolate" name="sabor" value="Chocolate">
+      <label for="Chocolate">Chocolate</label><br>
+      <input type="radio" id="Vainilla" name="sabor" value="Vainilla">
+      <label for="Vainilla">Vainilla</label><br>
+      <input type="radio" id="Cajeta" name="sabor" value="Cajeta">
+      <label for="Cajeta">Cajeta</label><br>
+      <input type="radio" id="Fresa" name="sabor" value="Fresa">
+      <label for="Fresa">Fresa</label><br>
+      <input type="radio" id="Red Velvet" name="sabor" value="Red Velvet">
+      <label for="Red Velvet">Red Velvet</label><br>
+      <input type="radio" id="Naranja" name="sabor" value="Naranja">
+      <label for="Naranja">Naranja</label><br><br>
+
+      <p>¿Qué decoración prefieres?</p>
+      <input type="checkbox" id="topping1" name="topping1" value="Chispas">
+      <label for="topping1">Chispas</label><br>
+      <input type="checkbox" id="topping2" name="topping2" value="Chantilly">
+      <label for="topping2">Chantilly</label><br>
+      <input type="checkbox" id="topping3" name="topping3" value="Fondant sencillo">
+      <label for="topping3">Fondant sencillo</label><br>
+      <input type="checkbox" id="topping4" name="topping4" value="Fondant 3D">
+      <label for="topping4">Fondant 3d</label><br>
+      <input type="checkbox" id="topping5" name="topping5" value="Frutas">
+      <label for="topping5">Frutas</label><br>
+      <input type="checkbox" id="topping6" name="topping6" value="Mermeladas">
+      <label for="topping6">Mermeladas</label><br><br>
+
+      <hr>
+      <br><br>
+      <input type="reset">
+      <input type="submit">
+      <br><br>
+
+
+
+    </form>
+
+
+
+
+
+</body>
+</html>
+
+
